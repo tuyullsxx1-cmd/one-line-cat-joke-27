@@ -10,6 +10,8 @@ else:
     look = "woke up only to demand dinner an hour early"
 LINE = "My cat " + deed + " and " + look + "."
 
+# The cat's crime is only funny because it takes the warm spot afterwards.
+assert "warm spot" in LINE
 # The entry is one line: no newline inside, one trailing newline in the file.
 assert "\n" not in LINE
 # Brief cap for this bounty: the line must stay under 200 characters.
